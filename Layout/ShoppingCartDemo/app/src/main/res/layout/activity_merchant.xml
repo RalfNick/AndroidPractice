@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/title" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/discount_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/group_rb"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimen_6_dp"
+                android:paddingTop="@dimen/dimen_6_dp"
+                android:text="@string/service_products"
+                android:textColor="@color/my_interaction_selector"
+                android:textSize="@dimen/dimen_14_dp" />
+
+
+            <RadioButton
+                android:id="@+id/preferential_rb"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimen_6_dp"
+                android:paddingTop="@dimen/dimen_6_dp"
+                android:text="@string/business"
+                android:textColor="@color/my_interaction_selector"
+                android:textSize="@dimen/dimen_14_dp" />
+
+            <RadioButton
+                android:id="@+id/coupon_rb"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimen_6_dp"
+                android:paddingTop="@dimen/dimen_6_dp"
+                android:text="@string/evaluate"
+                android:textColor="@color/my_interaction_selector"
+                android:textSize="@dimen/dimen_14_dp" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/group_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/benefit_style" />
+
+        <View
+            android:id="@+id/preferential_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/benefit_style"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/coupon_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/benefit_style"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_10dp"
+        android:background="@drawable/consumer_line" />
+
+
+
+
+    <!--<FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom"
+        android:layout_weight="1"
+        android:background="@color/consumer_bg" />-->
+
+    <android.support.v4.view.ViewPager
+            android:layout_weight="1"
+            android:id="@+id/pager"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>

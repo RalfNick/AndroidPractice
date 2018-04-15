@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/dimen_6_dp"
+    android:paddingTop="@dimen/dimen_6_dp">
+
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:text=""
+        android:id="@+id/commodityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/dimen_20_dp"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/choiceLayout"
+        android:layout_toRightOf="@+id/commodityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_30_dp"
+        android:gravity="center|right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥"
+            android:textColor="@color/benefit_style" />
+
+        <TextView
+            android:id="@+id/commodityPrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_3_dp"
+            android:textColor="@color/benefit_style" />
+
+        <TextView
+            android:id="@+id/commodityNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10_dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_3_dp"
+            android:text="件"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/choiceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/dimen_15_dp"
+        android:background="@drawable/shopping_choice"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/reduce"
+            android:layout_width="@dimen/dimen_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="—"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/shoppingNum"
+            android:layout_width="@dimen/dimen_0_dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:maxLength="10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_14_dp" />
+
+        <TextView
+            android:id="@+id/increase"
+            android:layout_width="@dimen/dimen_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

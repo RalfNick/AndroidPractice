@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mainitem_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_20_dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10_dp"
+            android:layout_toLeftOf="@+id/action"
+            android:layout_toRightOf="@+id/head"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_3_dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:textColor="@color/benefit_style"
+                    android:textSize="@dimen/dimen_13_dp" />
+
+                <TextView
+                    android:id="@+id/prise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_5_dp"
+                    android:textColor="@color/benefit_style"
+                    android:textSize="@dimen/dimen_13_dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/件"
+                    android:textColor="@color/benefit_style"
+                    android:textSize="@dimen/dimen_13_dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:background="@drawable/shopping_choice"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/reduce"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="—"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/shoppingNum"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_14_dp" />
+
+            <TextView
+                android:id="@+id/increase"
+                android:layout_width="@dimen/dimen_0_dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

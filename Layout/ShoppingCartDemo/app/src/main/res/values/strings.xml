@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShoppingCartDemo</string>
+    <string name="settlement">去结算</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="service_products">服务产品</string>
+    <string name="business">商家</string>
+    <string name="evaluate">评价</string>
+
+</resources>

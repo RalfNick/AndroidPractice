@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 统一字体大小 -->
+    <dimen name="textsize_xxxs">11sp</dimen>
+    <dimen name="textsize_xxs">12sp</dimen>
+    <dimen name="textsize_xs">13sp</dimen>
+    <dimen name="textsize_s">14sp</dimen>
+    <dimen name="textsize_m">15sp</dimen>
+    <dimen name="textsize_l">16sp</dimen>
+    <dimen name="textsize_xl">17sp</dimen>
+    <dimen name="textsize_xxl">18sp</dimen>
+    <dimen name="textsize_xxxl">19sp</dimen>
+    <dimen name="textsize_xxxxl">20sp</dimen>
+    <dimen name="textsize_xll">30sp</dimen>
+
+    <!-- 统一布局 -->
+    <dimen name="server_record_height">110dp</dimen>
+
+    <!-- 通用 -->
+    <dimen name="dimen_0_dp">0dp</dimen>
+    <dimen name="dimen_1_dp">1dp</dimen>
+    <dimen name="dimen_2_dp">2dp</dimen>
+    <dimen name="dimen_3_dp">3dp</dimen>
+    <dimen name="dimen_4_dp">4dp</dimen>
+    <dimen name="dimen_5_dp">5dp</dimen>
+    <dimen name="dimen_6_dp">6dp</dimen>
+    <dimen name="dimen_7_dp">7dp</dimen>
+    <dimen name="dimen_8_dp">8dp</dimen>
+    <dimen name="dimen_9_dp">9dp</dimen>
+    <dimen name="dimen_10_dp">10dp</dimen>
+    <dimen name="dimen_11_dp">11dp</dimen>
+    <dimen name="dimen_12_dp">12dp</dimen>
+    <dimen name="dimen_13_dp">13dp</dimen>
+    <dimen name="dimen_14_dp">14dp</dimen>
+    <dimen name="dimen_15_dp">15dp</dimen>
+    <dimen name="dimen_16_dp">16dp</dimen>
+    <dimen name="dimen_17_dp">17dp</dimen>
+    <dimen name="dimen_18_dp">18dp</dimen>
+    <dimen name="dimen_19_dp">19dp</dimen>
+    <dimen name="dimen_20_dp">20dp</dimen>
+    <dimen name="dimen_21_dp">21dp</dimen>
+    <dimen name="dimen_22_dp">22dp</dimen>
+    <dimen name="dimen_23_dp">23dp</dimen>
+    <dimen name="dimen_24_dp">24dp</dimen>
+    <dimen name="dimen_25_dp">25dp</dimen>
+    <dimen name="dimen_26_dp">26dp</dimen>
+    <dimen name="dimen_27_dp">27dp</dimen>
+    <dimen name="dimen_28_dp">28dp</dimen>
+    <dimen name="dimen_29_dp">29dp</dimen>
+    <dimen name="dimen_30_dp">30dp</dimen>
+    <dimen name="dimen_31_dp">31dp</dimen>
+    <dimen name="dimen_32_dp">32dp</dimen>
+    <dimen name="dimen_33_dp">33dp</dimen>
+    <dimen name="dimen_34_dp">34dp</dimen>
+    <dimen name="dimen_35_dp">35dp</dimen>
+    <dimen name="dimen_36_dp">36dp</dimen>
+    <dimen name="dimen_37_dp">37dp</dimen>
+    <dimen name="dimen_38_dp">38dp</dimen>
+    <dimen name="dimen_39_dp">39dp</dimen>
+    <dimen name="dimen_40_dp">40dp</dimen>
+    <dimen name="dimen_41_dp">41dp</dimen>
+    <dimen name="dimen_42_dp">42dp</dimen>
+    <dimen name="dimen_43_dp">43dp</dimen>
+    <dimen name="dimen_44_dp">44dp</dimen>
+    <dimen name="dimen_45_dp">45dp</dimen>
+    <dimen name="dimen_46_dp">46dp</dimen>
+    <dimen name="dimen_47_dp">47dp</dimen>
+    <dimen name="dimen_48_dp">48dp</dimen>
+    <dimen name="dimen_49_dp">49dp</dimen>
+    <dimen name="dimen_50_dp">50dp</dimen>
+    <dimen name="dimen_51_dp">51dp</dimen>
+    <dimen name="dimen_52_dp">52dp</dimen>
+    <dimen name="dimen_53_dp">53dp</dimen>
+    <dimen name="dimen_54_dp">54dp</dimen>
+    <dimen name="dimen_55_dp">55dp</dimen>
+    <dimen name="dimen_56_dp">56dp</dimen>
+    <dimen name="dimen_57_dp">57dp</dimen>
+    <dimen name="dimen_58_dp">58dp</dimen>
+    <dimen name="dimen_59_dp">59dp</dimen>
+    <dimen name="dimen_60_dp">60dp</dimen>
+    <dimen name="dimen_61_dp">61dp</dimen>
+    <dimen name="dimen_62_dp">62dp</dimen>
+    <dimen name="dimen_63_dp">63dp</dimen>
+    <dimen name="dimen_64_dp">64dp</dimen>
+    <dimen name="dimen_65_dp">65dp</dimen>
+    <dimen name="dimen_66_dp">66dp</dimen>
+    <dimen name="dimen_67_dp">67dp</dimen>
+    <dimen name="dimen_68_dp">68dp</dimen>
+    <dimen name="dimen_69_dp">69dp</dimen>
+    <dimen name="dimen_70_dp">70dp</dimen>
+    <dimen name="dimen_71_dp">71dp</dimen>
+    <dimen name="dimen_72_dp">72dp</dimen>
+    <dimen name="dimen_73_dp">73dp</dimen>
+    <dimen name="dimen_74_dp">74dp</dimen>
+    <dimen name="dimen_75_dp">75dp</dimen>
+    <dimen name="dimen_76_dp">76dp</dimen>
+    <dimen name="dimen_77_dp">77dp</dimen>
+    <dimen name="dimen_78_dp">78dp</dimen>
+    <dimen name="dimen_79_dp">79dp</dimen>
+    <dimen name="dimen_80_dp">80dp</dimen>
+    <dimen name="dimen_81_dp">81dp</dimen>
+    <dimen name="dimen_82_dp">82dp</dimen>
+    <dimen name="dimen_83_dp">83dp</dimen>
+    <dimen name="dimen_84_dp">84dp</dimen>
+    <dimen name="dimen_85_dp">85dp</dimen>
+    <dimen name="dimen_86_dp">86dp</dimen>
+    <dimen name="dimen_87_dp">87dp</dimen>
+    <dimen name="dimen_88_dp">88dp</dimen>
+    <dimen name="dimen_89_dp">89dp</dimen>
+    <dimen name="dimen_90_dp">90dp</dimen>
+    <dimen name="dimen_91_dp">91dp</dimen>
+    <dimen name="dimen_92_dp">92dp</dimen>
+    <dimen name="dimen_93_dp">93dp</dimen>
+    <dimen name="dimen_94_dp">94dp</dimen>
+    <dimen name="dimen_95_dp">95dp</dimen>
+    <dimen name="dimen_96_dp">96dp</dimen>
+    <dimen name="dimen_97_dp">97dp</dimen>
+    <dimen name="dimen_98_dp">98dp</dimen>
+    <dimen name="dimen_99_dp">99dp</dimen>
+    <dimen name="dimen_100_dp">100dp</dimen>
+    <dimen name="dimen_120_dp">120dp</dimen>
+    <dimen name="dimen_150_dp">150dp</dimen>
+    <dimen name="dimen_200_dp">200dp</dimen>
+    <dimen name="dimen_280_dp">280dp</dimen>
+    <dimen name="dimen_250_dp">250dp</dimen>
+    <dimen name="dimen_300_dp">300dp</dimen>
+    <dimen name="_10dp">-10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="door_icon_width">200dp</dimen>
+    <dimen name="door_icon_height">200dp</dimen>
+    <dimen name="door_icon_radius">100dp</dimen>
+    <dimen name="door_icon_half_radius">50dp</dimen>
+    <dimen name="door_ring_margin">4dp</dimen>
+    <dimen name="door_ring_inner_margin">19dp</dimen>
+    <dimen name="door_ring_box_left">70dp</dimen>
+    <dimen name="door_ring_box_right">@dimen/door_icon_radius</dimen>
+    <dimen name="door_ring_box_1_top">40dp</dimen>
+    <dimen name="door_ring_box_1_bottom">145dp</dimen>
+    <dimen name="door_ring_box_2_top">70dp</dimen>
+    <dimen name="door_ring_box_2_bottom">115dp</dimen>
+    <dimen name="door_ring_box_3_left">92dp</dimen>
+    <dimen name="door_ring_box_3_top">30dp</dimen>
+    <dimen name="door_ring_box_3_right">92dp</dimen>
+    <dimen name="door_ring_box_3_bottom">80dp</dimen>
+    <dimen name="door_key_handle_out_left">65dp</dimen>
+    <dimen name="door_key_handle_out_top">100dp</dimen>
+    <dimen name="door_key_handle_out_right">65dp</dimen>
+    <dimen name="door_key_handle_out_bottom">30dp</dimen>
+    <dimen name="door_key_handle_inner_left">90dp</dimen>
+    <dimen name="door_key_handle_inner_top">135dp</dimen>
+    <dimen name="door_key_handle_inner_right">90dp</dimen>
+    <dimen name="door_key_handle_inner_bottom">45dp</dimen>
+    <dimen name="key_listitem_address_font_size">18dp</dimen>
+    <dimen name="key_listitem_company_font_size">18dp</dimen>
+    <dimen name="key_listitem_date_font_size">14dp</dimen>
+    <dimen name="key_detail_share">16sp</dimen>
+    <dimen name="title_font_size">20sp</dimen>
+    <dimen name="surprise_detail">16sp</dimen>
+    <dimen name="surprise_title">18sp</dimen>
+
+    <!-- time picker begin -->
+
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <!-- 选项文字大小 需要配合 bools.xml 的 pickerview_customTextSize 为 true 才有效果 -->
+    <dimen name="pickerview_textsize">20sp</dimen>
+
+    <!-- Standart dimens for the color wheel -->
+    <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">18dp</dimen>
+    <dimen name="color_pointer_radius">14dp</dimen>
+    <!-- time picker end -->
+</resources>
