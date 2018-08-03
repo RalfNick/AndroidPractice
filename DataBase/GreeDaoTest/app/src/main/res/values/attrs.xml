@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆形图片圆角属性-->
+    <declare-styleable name="RoundImageView">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
