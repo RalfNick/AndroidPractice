@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_add"
+        android:title="search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@mipmap/ic_remove"
+        android:title="notification"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@mipmap/ic_search"
+        android:title="设置一"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@mipmap/ic_search"
+        android:title="设置二"
+        app:showAsAction="never" />
+</menu>
