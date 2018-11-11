@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/pic1"
+        android:top="10dp" />
+
+    <item
+        android:drawable="@drawable/pic2"
+        android:top="10dp" />
+
+</transition>

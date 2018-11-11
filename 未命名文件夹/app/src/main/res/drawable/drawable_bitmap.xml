@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/drawable_small_test"
+    android:dither="true"
+    android:gravity="center"
+    android:mipMap="true"
+    android:antialias="true"
+    android:filter="true"
+    android:tileMode="mirror"/>
