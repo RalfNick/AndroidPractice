@@ -11,3 +11,7 @@
 #[Android学习—Layout | 购物车练习](Layout)
 
 #[Android学习—常用| Android中常用](Common)
+
+#[Android学习—Drawable](Drawable)
+
+#[Android学习—自定义View-初体验](CustomViewTest)
