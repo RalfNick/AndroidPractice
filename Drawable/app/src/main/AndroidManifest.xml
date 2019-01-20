@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- 用于读取数据从扩展存储卡 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -29,7 +28,8 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".FourthActivity"></activity>
+        <activity android:name=".FourthActivity" />
+        <activity android:name=".CustomActivity"></activity>
     </application>
 
 </manifest>

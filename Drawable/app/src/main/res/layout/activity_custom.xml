@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CustomActivity">
+
+    <www.ralf.com.drawabledemo.widget.ImageTextView
+        android:id="@+id/imageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:direction="1"
+        app:gap="10dp"
+        app:imageSize="60dp"
+        app:isBold="true"
+        app:isCircle="true"
+        app:textColor="@color/black"
+        app:textSize="14sp">
+
+    </www.ralf.com.drawabledemo.widget.ImageTextView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageTextView"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Button" />
+
+    <www.ralf.com.drawabledemo.widget.FeaturedPersonView
+        android:id="@+id/featured_person_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginStart="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="start"
+        app:circle="true"
+        app:horizontalSpace="10dp"
+        app:lineNum="10"
+        app:maxNum="20"
+        app:multiLine="true"
+        app:picSize="20dp">
+
+    </www.ralf.com.drawabledemo.widget.FeaturedPersonView>
+
+</RelativeLayout>

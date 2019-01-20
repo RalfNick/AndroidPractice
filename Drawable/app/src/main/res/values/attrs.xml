@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageTextView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="isBold" format="boolean" />
+        <attr name="imageSize" format="dimension" />
+        <attr name="isCircle" format="boolean" />
+        <attr name="gap" format="dimension" />
+        <attr name="direction" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FeaturedPersonView">
+        <attr name="multiLine" format="boolean" />
+        <attr name="lineNum" format="integer" />
+        <attr name="maxNum" format="integer" />
+        <attr name="picSize" format="dimension" />
+        <attr name="circle" format="boolean" />
+        <attr name="horizontalSpace" format="dimension" />
+        <attr name="verticalSpace" format="dimension" />
+    </declare-styleable>
+</resources>
