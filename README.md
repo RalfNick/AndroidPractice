@@ -15,3 +15,5 @@
 #[Android学习—Drawable](Drawable)
 
 #[Android学习—自定义View-初体验](CustomViewTest)
+
+#[Android学习—自定义View-Paint](CustomView_Paint)
