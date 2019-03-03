@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--StarLevelView 属性定义-->
+    <declare-styleable name="StarLevelView">
+        <attr name="level" format="integer" /><!--设置等级-->
+        <attr name="drawable" format="reference" /><!--图片-->
+        <attr name="drawable_height" format="integer" /><!--设置图片高度，方形图-->
+    </declare-styleable>
+
+    <declare-styleable name="GrowUpView">
+        <!--背景色圆半径-->
+        <attr name="bg_radius" format="dimension" />
+        <!--进度圆半径-->
+        <attr name="pro_radius" format="dimension" />
+        <!--背景线宽度-->
+        <attr name="bg_width" format="dimension" />
+        <!--背景线颜色-->
+        <attr name="bg_color" format="color" />
+        <!--字体颜色-->
+        <attr name="text_color" format="color" />
+        <!--进度线宽度-->
+        <attr name="pro_width" format="dimension" />
+        <!--进度线颜色-->
+        <attr name="pro_color" format="color" />
+        <!--字体距离-->
+        <attr name="text_padding" format="dimension" />
+        <!--最大步数-->
+        <attr name="max_step" format="integer" />
+        <!--字体大小-->
+        <attr name="textsize" format="dimension" />
+        <!--当前步数-->
+        <attr name="pro_step" format="integer" />
+        <!--每一个大的间隔之间的小间隔-->
+        <attr name="sub_step" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFontTextView">
+        <attr name="text_font" format="string" />
+    </declare-styleable>
+
+</resources>
