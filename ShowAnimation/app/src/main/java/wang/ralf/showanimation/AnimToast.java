@@ -28,10 +28,6 @@ public class AnimToast {
     private static int sGravity = -1;
     private static int sXOffset = -1;
     private static int sYOffset = -1;
-    private static int sBgColor = COLOR_DEFAULT;
-    private static int sBgResource = -1;
-    private static int sMsgColor = COLOR_DEFAULT;
-    private static int sMsgTextSize = -1;
 
     private AnimToast() {
         throw new UnsupportedOperationException("u can't instantiate me...");
