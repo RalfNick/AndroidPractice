@@ -38,8 +38,8 @@ public class ViewAfterOnDraw extends AppCompatImageView {
     }
 
     {
-        paint.setColor(Color.RED);
-        paint.setTextSize(40);
+        paint.setColor(Color.WHITE);
+        paint.setTextSize(50);
     }
 
     @Override
