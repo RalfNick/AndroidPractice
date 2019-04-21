@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomView_Draw</string>
+    <string name="title_after_on_draw">onDraw()-后</string>
+    <string name="title_before_on_draw">onDraw()-前</string>
+    <string name="title_on_draw_layout">onDraw()-在 Layout 中</string>
+    <string name="title_dispatch_draw">dispatchDraw()</string>
+    <string name="title_after_on_draw_foreground">onDrawForeground()-后</string>
+    <string name="title_before_on_draw_foreground">onDrawForeground()-前</string>
+    <string name="test_text">Hello World</string>
+    <string name="image_size">尺寸：%1$d x %2$d</string>
+    <string name="batman">Batman</string>
+</resources>
