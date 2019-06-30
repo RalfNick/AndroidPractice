@@ -5,6 +5,13 @@
     android:gravity="center"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/pop_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="pop" />
+
     <wang.ralf.customview_draw.view.ViewAfterOnDraw
         android:layout_width="300dp"
         android:layout_height="300dp"
