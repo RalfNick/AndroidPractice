@@ -4,5 +4,6 @@
     <string name="object_animator">Object_Animator</string>
     <string name="animator_set">动画集合</string>
     <string name="animator_sample">小例子</string>
+    <string name="transition_sample">转场动画</string>
     <string name="view_property_animator">ViewProperty_Animator</string>
 </resources>

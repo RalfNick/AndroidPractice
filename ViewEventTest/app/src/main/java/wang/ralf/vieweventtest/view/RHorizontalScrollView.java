@@ -2,6 +2,7 @@ package wang.ralf.vieweventtest.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
@@ -127,6 +128,7 @@ public class RHorizontalScrollView extends ViewGroup {
             case MotionEvent.ACTION_MOVE:
                 int deltaX = x - mLastX;
                 int deltaY = y - mLastY;
+                Log.e("onInterceptTouchEvent","deltaX -" + deltaX + " deltaY " + deltaY);
                 if (Math.abs(deltaX) > Math.abs(deltaY)) {
                     intercepted = true;
                 } else {

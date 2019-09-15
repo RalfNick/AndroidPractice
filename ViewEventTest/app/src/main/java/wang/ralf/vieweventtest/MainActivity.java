@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.view_measure_btn).setOnClickListener(this);
         findViewById(R.id.view_scroll1_btn).setOnClickListener(this);
         findViewById(R.id.view_scroll2_btn).setOnClickListener(this);
+        findViewById(R.id.intent_btn).setOnClickListener(this);
     }
 
     @Override
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent = new Intent(MainActivity.this, ViewScrollOneActivity.class);
         } else if (id == R.id.view_scroll2_btn) {
             intent = new Intent(MainActivity.this, ViewScrollTwoActivity.class);
+        } else if (id == R.id.intent_btn) {
+            intent = new Intent(MainActivity.this, NewIntentTest.class);
         }
         if (intent != null) {
             startActivity(intent);

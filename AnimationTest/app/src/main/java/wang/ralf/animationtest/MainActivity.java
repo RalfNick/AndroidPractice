@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.view_property_btn).setOnClickListener(this);
         findViewById(R.id.animator_set_btn).setOnClickListener(this);
         findViewById(R.id.sample_btn).setOnClickListener(this);
+        findViewById(R.id.transition_btn).setOnClickListener(this);
     }
 
     @Override
