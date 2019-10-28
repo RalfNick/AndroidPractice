@@ -27,5 +27,8 @@ class MainActivity : AppCompatActivity() {
         viewgroup_viewgroup.setOnClickListener {
             startActivity(Intent(this, ViewGroupAndVGActivity::class.java))
         }
+        viewgroup_viewgroup_view.setOnClickListener {
+            startActivity(Intent(this, EventTransmitActivity::class.java))
+        }
     }
 }

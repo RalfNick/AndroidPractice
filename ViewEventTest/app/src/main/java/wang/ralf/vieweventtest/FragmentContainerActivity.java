@@ -32,7 +32,7 @@ public class FragmentContainerActivity extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.e(TAG, "收到结果 --- > FragmentContainerActivity");
+        Log.e(TAG, "收到结果 --- > FragmentContainerActivity -- requestCode " + requestCode + " resultCode " + resultCode);
         if (requestCode == 100) {
             if (resultCode == 200) {
                 String result = data.getStringExtra("result");

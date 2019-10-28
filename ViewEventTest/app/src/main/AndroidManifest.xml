@@ -13,7 +13,7 @@
         <activity android:name=".ResultActivity" />
         <activity
             android:name=".NewIntentTest"
-            android:launchMode="singleTask"
+            android:launchMode="singleTop"
             android:configChanges="orientation"/>
         <activity android:name=".ViewScrollTwoActivity" />
         <activity android:name=".ViewScrollOneActivity" />

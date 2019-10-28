@@ -53,7 +53,7 @@ class MyLayout1 @JvmOverloads constructor(context: Context, attrs: AttributeSet?
                 // 子 View 中 onTouchEvent 中为 false,事件会回溯到 MyLayout1 父 View 或者 Activity 中的 onTouchEvent，MyLayout1 不接收，MyLayout1 只接收来自 onInterceptTouchEvent 拦截的事件
                 // b. true 拦截，move 事件交给自己的 onTouchEvent 来处理, 后续 move 和 up 事件不经过 onInterceptTouchEvent，直接传给 MyLayout1 的 onTouchEvent，
                 // move 和 up 的返回值影响父 View 或者 Activity 能否收到响应的事件
-                result = true
+                result = false
             }
             MotionEvent.ACTION_UP -> {
                 // (4) 只有 onInterceptTouchEvent 中 move 不拦截，

@@ -61,7 +61,7 @@ public class ResultFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), ResultActivity.class);
                 intent.putExtra("code",100);
-                getActivity().startActivityForResult(intent, 100);
+                startActivityForResult(intent, 100);
             }
         });
     }

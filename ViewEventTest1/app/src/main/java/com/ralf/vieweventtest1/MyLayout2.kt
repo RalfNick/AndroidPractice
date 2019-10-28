@@ -35,7 +35,7 @@ class MyLayout2 @JvmOverloads constructor(context: Context, attrs: AttributeSet?
         var result = false
         when (ev.action) {
             MotionEvent.ACTION_DOWN -> {
-                result = true
+                result = false
             }
             MotionEvent.ACTION_MOVE -> {
                 result = false

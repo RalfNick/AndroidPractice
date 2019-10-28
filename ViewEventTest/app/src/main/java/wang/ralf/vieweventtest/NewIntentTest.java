@@ -65,7 +65,7 @@ public class NewIntentTest extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.e(TAG, "onActivityResult --- > 调用了");
+        Log.e(TAG, "onActivityResult --- > 调用了 -- requestCode - " + requestCode + " resultCode - " + resultCode);
         if (resultCode == 300) {
             if (requestCode == 101) {
                 assert data != null;

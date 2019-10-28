@@ -6,6 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/gray"
+        android:id="@+id/linear_layout"
         tools:context=".ViewGroupAndViewActivity">
 
     <com.ralf.vieweventtest1.MyLayout1
@@ -16,6 +17,7 @@
             android:layout_height="match_parent">
 
         <com.ralf.vieweventtest1.MyView1
+                android:id="@+id/myview1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="40dp"
